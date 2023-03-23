@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Durga Mata Chanachur</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+
+
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <small><i class="fa fa-map-marker-alt me-2"></i>Biradingi, Howrah 711108</small>
+                <small class="ms-4"><i class="bx bxl-telegram me-2"></i>info.durgamata@gmail.com</small>
+            </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small>Follow us:</small>
+                <a class="text-body ms-3" href="https://m.facebook.com/100054203680500/"><i class="fab fa-facebook-f"></i></a>
+                
+                
+                <a class="text-body ms-3" href="https://youtube.com/@Durga_Mata_Chanachur"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        
+        <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <!-- <img src="img/" class="img-fluid" alt="Responsive image"> -->
+                <!-- <h1 style="font-family: 'Nautilus Pompilius', sans-serif;"  class="fw-bold text-primary m-0 logo">Durga<span class="text-secondary">Mata</span></h1> -->
+                
+                <img  src="img/logo.png" width="180" alt="" class="d-inline-block align-middle img-responsive">
+            
+            </a>
+            <style>
+                @import url(https://fonts.googleapis.com/css?family=Chonburi);
+                /* .logo{
+                    
+                    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    
+                    -webkit-text-stroke: 0.01em; #A0522D;
+                    
+                    color: transparent;
+                    
+                } */
+
+                            /* .logo{
+                                
+                                line-height:2;
+                                text-align: center;
+                                background: linear-gradient(90deg, rgba(186,148,62,1) 0%, rgba(236,172,32,1) 20%, rgba(186,148,62,1) 39%, rgba(249,244,180,1) 50%, rgba(186,148,62,1) 60%, rgba(236,172,32,1) 80%, rgba(186,148,62,1) 100%);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;	
+                                animation: shine 3s infinite;
+                                background-size: 200%;
+                                background-position: left;
+                                
+                                
+                            }
+                            @keyframes shine {
+                                to{background-position: right}
+            
+                            } */
+                            
+
+                            /* #logo:before {
+                                    content: '';
+                                    position: absolute;
+                                    top: 0;
+                                    left: -100px;
+                                    width: 70px;
+                                    height: 100%;
+                                    background: rgba(255,255,255, 0.3);
+                                    transform: skewX(-30deg);
+                                    animation-name: slide;
+                                    animation-duration: 7s;
+                                    animation-timing-function: ease-in-out;
+                                    animation-delay: .3s;
+                                    animation-iteration-count: infinite;
+                                    animation-direction: alternate;
+                                    background: linear-gradient(
+                                        to right, 
+                                        rgba(255, 255, 255, 0.13) 0%,
+                                        rgba(255, 255, 255, 0.13) 77%,
+                                        rgba(255, 255, 255, 0.5) 92%,
+                                        rgba(255, 255, 255, 0.0) 100%
+                                    );
+                                    }
+                                    @keyframes slide {
+                                    0% {
+                                        left: -100;
+                                        top: 0;
+                                    }
+                                    50% {
+                                        left: 120px;
+                                        top: 0px;
+                                    }
+                                    100% {
+                                        left: 290px;
+                                        top: 0;
+                                    }
+                                    } */
+                
+                    
+                
+            </style>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About Us</a>
+                    <a href="product.html" class="nav-item nav-link">Products</a>
+                    
+                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                </div>
+                <div class="d-none d-lg-flex ms-2">
+                    <!-- <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
+                        <small class="fa fa-search text-body"></small>
+                    </a> -->
+                    <!-- <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
+                        <small class="fa fa-user text-body"></small>
+                    </a> -->
+                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="enq.html">
+                        <small class="bx bxl-telegram text-body"></small>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <h1 class="display-3 mb-3 animated slideInDown">Product Enquiry</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a class="text-body" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-body" href="#">Product Enquiry</a></li>
+                    <!-- <li class="breadcrumb-item text-dark active" aria-current="page">Product Enquiry</li> -->
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Contact Start -->
+    <div class="container-xxl py-6">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-3">Product Enquiry</h1>
+                <p>Send Product Enquiry For More Details</p>
+            </div>
+            <div class="row g-5 justify-content-center">
+                <div class="col-lg-5 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-primary text-white d-flex flex-column justify-content-center h-100 p-5"  id="sectionheading">
+                        <h4 class="text-white text-center"><ins>Important Note</ins></h4>
+                        <p class="mb-5" id="regTitle">
+
+                            We does not charge any money at any stage of the order/product enquiry process and has not authorised agencies/partners to collect any payment for our product. If you encounter any suspicious mail, advertisements or persons who ask for payment prior to delivery of product, Please do let us know by contacting us on <a target="_blank" style="color: aliceblue;" href="https://mail.google.com/mail/?view=cm&fs=1&to=info.durgamata@gmail.com"><strong>info.durgamata@gmail.com</strong></a>.
+                            Our website is only for representing our product online. We does not charge any money before delivery of the product.
+                            In case you receive such mails asking for cash deposit into a designated bank account, please do not pay/deposit money.</p>
+                            <a href="#sectionheading" class="link-dark" id="noteimpLink">Translate in Bengali</a>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                    <!-- <p class="mb-4">Contact Us for more information about our products and its price. <br> <b>Note:</b> Our product price will depends on the quantity of order you placed and the Delivery Location.</p> -->
+                    <form action="https://formsubmit.co/souravsr1167@gmail.com" method="POST"  class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-6">
+                          <label for="validationCustom01" class="form-label"><b>Full Name *</b></label>
+                          <input type="text" class=" usa form-control" id="validationCustom01" required name="Name">
+                          <div class="invalid-feedback">
+                            Enter Valid Name
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="validationCustom02" class="form-label"><b>Email *</b></label>
+                          <input type="email" class="form-control" id="validationCustom02" required name="Email ID">
+                          <div class="invalid-feedback">
+                            Enter a valid Email Id
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="validationCustom02" class="form-label"><b>Mobile No. *</b></label>
+                            <input type="tel" pattern="[0-9]{10}" class="form-control" id="validationCustom02" required name="Email ID">
+                            <div class="invalid-feedback">
+                              Enter a valid Mobile number
+                            </div>
+                          </div>
+                        
+                        <div class="col-md-6">
+                          <label for="validationCustom04" class="form-label"><b>Please Select your District *</b></label>
+                          <select class="form-select districtselect" id="validationCustom04" required name="district">
+                            <!-- <option value="default">default</option> -->
+                            <option selected disabled value="">Choose...</option>
+                            
+                          </select>
+                          <div class="invalid-feedback">
+                            Please select a valid Option.
+                          </div>
+                        </div>
+                        
+                        
+                        
+                        <div class="col-md-3">
+                            <label for="validationCustom05" class="form-label"><b>Select Product *</b></label>
+                            <select class="form-select" id="validationCustom05" required name="Product" onchange="collarChange(event)">
+                                <option selected disabled value="">Choose...</option>
+                            </select >                               
+                            <div class="invalid-feedback">
+                                Please, Select a Product
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationCustom06" class="form-label"><b>Enter Quantity *</b></label>
+                            <input type="number" class=" usa form-control" id="validationCustom06" min="25" required name="qnty">
+                            <div class="invalid-feedback">
+                              Enter Quantity Minimum 25kg
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="" alt="" class="img-thumbnail" id="pdtimg">
+                            
+                         <!-- dynamic -->   
+                        </div>
+                        <div class="container" >
+                            <div class="row" id="parent">
+
+                            </div>
+
+                        </div>
+                            
+
+                        
+                        
+
+                        <div class="col-12">
+                            <button type="button" id="addpdt" class="btn btn-primary shadow" style="background-color: #B10DC9;">Add Product</button>
+                            
+                          </div>
+                        
+                        <div class="col-12">
+                            <button class="btn btn-primary shadow" type="submit">Send Enquiry</button>
+                            <input type="hidden" name="_captcha" value="false">
+                            
+                            <input type="hidden" name="_next" value="">
+                          </div>
+                        
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Google Map Start -->
+    <div class="container-xxl px-0 wow fadeIn" data-wow-delay="0.1s" style="margin-bottom: -6px;">
+        <iframe class="w-100" style="height: 450px;"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.0234592377496!2d88.3090802144348!3d22.61559913709161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882a6881023ad%3A0x2116ef97c53b0d4c!2sDurga%20Mata%20Chanachur!5e0!3m2!1sen!2sin!4v1677600643096!5m2!1sen!2sin"
+            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <!-- Google Map End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <img  src="img/logo.png" width="180" alt="" class="d-inline-block align-middle img-responsive">
+                    <p>Since 1998, crafting Howrah's tastiest Chanachur! <br> স্বাদে অনুভব করুন আনন্দ।</p>
+                    <div class="d-flex pt-2">
+                        
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://m.facebook.com/100054203680500/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://youtube.com/@Durga_Mata_Chanachur"><i class="fab fa-youtube"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>Biradingi Howrah 711108</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+91 9903584332</p>
+                    <p><i class="bx bxl-telegram me-3"></i>info.durgamata@gmail.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="index.html">Home</a>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    
+                    <a class="btn btn-link" href="product.html">Products</a>
+                    <a class="btn btn-link" href="enq.html">Enquiry</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Business Hours</h4>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <table class="table table-borderless">
+                            
+                            <tbody>
+                              <tr>
+                                <th scope="row">Mon - Sat</th>
+                                <td>7AM to 9PM</td>
+                                
+                                
+                              </tr>
+                              <tr>
+                                <th scope="row">Sunday</th>
+                                <td>7AM to 12PM</td>
+                                <td></td>
+                              </tr>
+                              
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Durga Mata Chanachur &reg;</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a href="">Sourav Nayak</a>
+                        <br>Distributed By: <a href="" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- DISTRICT LIST -->
+    <script>
+        var select = document.getElementById("validationCustom04"),
+                     arr = [  
+            "Alipurduar",
+            "Bankura",
+            "Birbhum",
+            "Burdwan (Bardhaman)",
+            "Cooch Behar",
+            "Dakshin Dinajpur (South Dinajpur)",
+            "Darjeeling",
+            "Hooghly",
+            "Howrah",
+            "Jalpaiguri",
+            "Kalimpong",
+            "Kolkata",
+            "Malda",
+            "Murshidabad",
+            "Nadia",
+            "North 24 Parganas",
+            "Paschim Medinipur (West Medinipur)",
+            "Purba Medinipur (East Medinipur)",
+            "Purulia",
+            "South 24 Parganas",
+            "Uttar Dinajpur (North Dinajpur)"
+         ];
+             
+             for(var i = 0; i < arr.length; i++)
+             {
+                 var option = document.createElement("OPTION"),
+                     txt = document.createTextNode(arr[i]);
+                 option.appendChild(txt);
+                 option.setAttribute("value",arr[i]);
+                 select.insertBefore(option,select.lastChild);
+             }
+    </script>
+
+    
+    <!-- PRODUCT LIST -->
+    <script>
+        var select1 = document.getElementById("validationCustom05"),
+                     arr = [  
+            "Moghlai",
+            "Mouchak",
+            "Tofa",
+            "Kasundi",
+            "Alu Jhuri",
+            "Special Papdi",
+            "Samrat(Badsha)",
+            "Tok Jhal Misti",
+            "Curry Pata",
+            "Kranti",
+            "Jhal Jhuri",
+            "Soru Jhuri",
+            "Mota Jhuri",
+            "Masala Chidwa",
+            "Gathia",
+            "Chips",
+            "Dalmut",
+            "Badam",
+            "Channa",
+            "Besan Papdi",
+            "Kaju Biscuit",
+            "Lal Nimki",
+            "Sada Nimki",
+            "Khasta Nimki"
+         ];
+             
+             for(var j = 0; j < arr.length; j++)
+             {
+                 var option = document.createElement("OPTION"),
+                     txt = document.createTextNode(arr[j]);
+                 option.appendChild(txt);
+                 option.setAttribute("value",arr[j]);
+                 select1.insertBefore(option,select1.lastChild);
+             }
+             collarChange = function (event) {
+                 console.log(event.target.value);
+                 var first_pdtname = event.target.value;
+                 document.getElementById("pdtimg").src = "";
+                 document.getElementById("pdtimg").src = "pi/"+first_pdtname+".jpg";
+
+            // if (event.target.value == "Moghlai")
+            // {
+            //     document.getElementById("pdtimg").src = "";
+            //     document.getElementById("pdtimg").src = "https://placehold.jp/200x100.png";
+            // }else if(event.target.value == "Mouchak"){
+            //     document.getElementById("pdtimg").src = "";
+            //     document.getElementById("pdtimg").src = "pi/mouchak.jpg";
+                
+            // }else if(event.target.value == "Tofa"){
+            //     document.getElementById("pdtimg").src = "";
+            //     document.getElementById("pdtimg").src = "pi/tofa.jpg";
+                
+            // }else if(event.target.value == "Kasundi"){
+            //     document.getElementById("pdtimg").src = "";
+            //     document.getElementById("pdtimg").src = "pi/kasundi.jpg";
+                
+            // }else{}
+        }
+             
+    </script>
+
+    <!-- Bootstrap form validation & sweet alart -->
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (form.checkValidity() === true){
+          
+            
+                swal("Thank You!", "We've received your message and will respond within 24 hours.", "success");
+
+            
+          } else
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+        
+        
+      }, false)
+    })
+})()
+
+</script>
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
+    <!-- sweetalart -->
+    
+    
+<!-- dynamic div -->
+<script>
+    $(function(){
+            var count = 0;
+            var imgid = 0;
+            $('#addpdt').click(function(){
+
+                var first_txt = $("#validationCustom05 :selected").text();
+                cccount = count-1;
+                var books_dy = document.getElementById("select_"+cccount);
+                var dynamic_text = $(books_dy).find(":selected").text();
+                if(first_txt == "Choose..." || dynamic_text == "Choose..."){
+                    $.toast({
+                        heading: 'Please select this product options before adding another product!',
+                        text: 'এই পণ্য যোগ করার আগে কিছু পণ্য বিকল্প নির্বাচন করুন',
+                        position: 'top-center',
+                        loaderBg: '#1400c6', 
+                        bgColor: '#0095c6',
+                        icon: 'warning',
+                        hideAfter: 5000,
+                        stack: false
+                    });
+                }else{
+                    
+                
+                var html = '<div class="col-md-3">';
+                html += '<label for="'+count+'" class="form-label"><b>Select Product *</b></label>';
+                html += '<select class="form-select" id="select_'+count+'" required name="Product">';
+                html += '<option selected disabled value="">Choose...</option>'
+                html += '<option value="Moghlai" >Moghlai</option>'
+                html += '<option value="Mouchak" >Mouchak</option>'
+                html += '<option value="Tofa" >Tofa</option>'
+                html += '<option value="kasundi" >Kasundi</option>'
+                html += '<option value="Special Papdi" >Special Papdi</option>'
+
+                html += '<option value="Samrat(Badsha)" >Samrat(Badsha)</option>'
+                html += '<option value="Tok Jhal Misti" >Tok Jhal Misti</option>'
+                html += '<option value="Curry Pata" >Curry Pata</option>'
+                html += '<option value="Kranti" >Kranti</option>'
+                html += '<option value="Jhal Jhuri" >Jhal Jhuri</option>'
+                html += '<option value="Soru Jhuri" >Soru Jhuri</option>'
+                html += '<option value="Mota Jhuri" >Mota Jhuri</option>'
+                html += '<option value="Gathia" >Gathia</option>'
+                html += '<option value="Chips" >Chips</option>'
+                html += '<option value="Dalmut" >Dalmut</option>'
+                html += '<option value="Badam" >Badam</option>'
+                html += '<option value="Channa" >Channa</option>'
+                html += '<option value="Besan Papdi" >Besan Papdi</option>'
+                html += '<option value="Kaju Biscuit" >Kaju Biscuit</option>'
+                html += '<option value="Lal Nimki" >Lal Nimki</option>'
+                html += '<option value="Khasta Nimki" >Khasta Nimki</option>'
+
+
+                html += '</select >'
+                html += '<div class="invalid-feedback">'
+                html += 'Please, Select a Product'
+                html += '</div>'
+                html += '</div>'
+                html += '<div class="col-md-3">'
+                html += '<label for="validationCustom06" class="form-label"><b>Enter Quantity *</b></label>'
+                html += '<input type="number" class=" usa form-control" id="validationCustom06" min="25" required name="qnty">'
+                html += '<div class="invalid-feedback">'
+                html += 'Enter Quantity'
+                html += '</div>'
+                html += '</div>'
+                html += '<div class="col-md-6 mt-2">'
+                html += '<img src="" alt="" class="img-thumbnail float-right" id="pdtimg_'+imgid+'">'
+                html += '</div>'
+
+
+
+
+                $("#parent").append(html);
+                let source = document.getElementById("select_"+count);
+                let targetdiv = document.getElementById("pdtimg_"+imgid);
+                
+
+                count++;
+                imgid++;
+                
+                console.log(source);
+                source.addEventListener('change', function () {
+                    // checking similar
+                    var errors = 0;
+                    var pdttName = $(source).find(":selected").text();
+                    var c1 = $("#validationCustom05 option:selected").text();
+
+                    for(i = 2; i<=8; i++){
+                    var previous = count-i;
+                    var prevtextid =  document.getElementById("select_"+previous);
+                    var pre_pdt_name = $(prevtextid).find(":selected").text();
+                     console.log(prevtextid)   
+                    
+                    
+                    if (c1 == pdttName || pre_pdt_name == pdttName){
+                        console.log("thik hai");
+                        errors++;
+                        }
+                    }
+                    if(errors){
+                        $.toast({
+                            heading: ''+pdttName+' Already Selected',
+                            text: 'Please select any other product',
+                            text: [
+                                'Please select any other product',
+                                'অন্য কোন পণ্য নির্বাচন করুন',
+                                'कृपया कोई अन्य उत्पाद चुनें'
+                            ],
+                            showHideTransition: 'plain',
+                            loaderBg: '#940303', 
+                            bgColor: '#a30207',
+                            hideAfter: 5000,
+                            position: 'bottom-left',
+                            icon: 'error'
+                        })
+                        $(targetdiv).attr("src","");
+                    }else{
+                        $(targetdiv).attr("src","");
+                        $(targetdiv).attr("src","pi/"+pdttName+".jpg");
+
+                    }
+                    
+                    var x = $(source).prev().attr("id");
+                    
+                        
+                
+
+                    
+       });
+    }
+
+            });
+            
+
+        });
+                // let firstselect = document.getElementById(validationCustom05);
+                //let contents = $('#validationCustom05');
+                
+                
+                
+
+        
+        // let firstselect = document.getElementById(validationCustom05);
+        // let firstdynamic = document.getElementById(select_0);
+        // firstdynamic.addEventListener('change', function () {
+        //     var c1 = $(firstselect).find(":selected").text();
+        //     var c2 = $(firstdynamic).find(":selected").text();
+        //     if(c1 === c2){
+        //         //$.toast('Here you can put the text of the toast')
+        //         console.log("yes");
+
+        //     }
+        // });
+        $('#noteimpLink').click(function(){
+            $("#regTitle").fadeOut(500, function(){
+                $("#regTitle").html("আমরা অর্ডার/পণ্য অনুসন্ধান প্রক্রিয়ার যেকোনো পর্যায়ে কোনো টাকা চার্জ করি না এবং আমাদের পণ্যের জন্য কোনো অর্থপ্রদান সংগ্রহ করার জন্য এজেন্সি/অংশীদারদের অনুমোদন করিনি। আপনি যদি কোনও সন্দেহজনক মেইল, বিজ্ঞাপন বা ব্যক্তিদের সম্মুখীন হন যারা পণ্য সরবরাহের আগে অর্থপ্রদানের জন্য জিজ্ঞাসা করেন, অনুগ্রহ করে আমাদের সাথে info.durgamata@gmail.com এ যোগাযোগ করে আমাদের জানান। আমাদের ওয়েবসাইট শুধুমাত্র আমাদের পণ্য অনলাইন প্রতিনিধিত্ব করার জন্য. আমরা পণ্য ডেলিভারির আগে কোনো টাকা চার্জ করি না। যদি আপনি একটি নির্দিষ্ট ব্যাঙ্ক অ্যাকাউন্টে নগদ জমা দেওয়ার জন্য এই ধরনের মেইলগুলি পান, তাহলে অনুগ্রহ করে অর্থ প্রদান/জমা করবেন না।").fadeIn(500);
+            
+            // $('#noteimpLink').html("");
+
+            });
+            
+            
+            
+    //         $('#regTitle').typed({
+    //   strings: [
+    //     "আমরা অর্ডার/পণ্য অনুসন্ধান প্রক্রিয়ার যেকোনো পর্যায়ে কোনো টাকা চার্জ করি না এবং আমাদের পণ্যের জন্য কোনো অর্থপ্রদান সংগ্রহ করার জন্য এজেন্সি/অংশীদারদের অনুমোদন করিনি। আপনি যদি কোনও সন্দেহজনক মেইল, বিজ্ঞাপন বা ব্যক্তিদের সম্মুখীন হন যারা পণ্য সরবরাহের আগে অর্থপ্রদানের জন্য জিজ্ঞাসা করেন, অনুগ্রহ করে আমাদের সাথে info.durgamata@gmail.com এ যোগাযোগ করে আমাদের জানান। আমাদের ওয়েবসাইট শুধুমাত্র আমাদের পণ্য অনলাইন প্রতিনিধিত্ব করার জন্য. আমরা পণ্য ডেলিভারির আগে কোনো টাকা চার্জ করি না। যদি আপনি একটি নির্দিষ্ট ব্যাঙ্ক অ্যাকাউন্টে নগদ জমা দেওয়ার জন্য এই ধরনের মেইলগুলি পান, তাহলে অনুগ্রহ করে অর্থ প্রদান/জমা করবেন না।"
+    //   ],
+    //   typeSpeed: 0,
+    //   fadeOut: true,
+    //   contentType: 'html',
+    // });
+        });
+
+</script>
+<style>
+    .jq-toast-wrap {
+    display: block;
+    position: fixed;
+    width: 250px;
+    pointer-events: none !important;
+    margin: 0;
+    padding: 0;
+    letter-spacing: normal;
+    z-index: 9000 !important;
+}
+
+.jq-toast-wrap * {
+    margin: 0;
+    padding: 0;
+}
+
+.jq-toast-wrap.bottom-left {
+    bottom: 20px;
+    left: 20px;
+}
+
+.jq-toast-wrap.bottom-right {
+    bottom: 20px;
+    right: 40px;
+}
+
+.jq-toast-wrap.top-left {
+    top: 20px;
+    left: 20px;
+}
+
+.jq-toast-wrap.top-right {
+    top: 20px;
+    right: 40px;
+}
+
+.jq-toast-single {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 0px 0px 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: arial, sans-serif;
+    line-height: 17px;
+    position: relative;
+    pointer-events: all !important;
+    background-color: #444444;
+    color: white;
+}
+
+.jq-toast-single h2 {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 0px 0px 7px;
+    background: none;
+    color: inherit;
+    line-height: inherit;
+    letter-spacing: normal;
+}
+
+.jq-toast-single a {
+    color: #eee;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+    font-size: 12px;
+}
+
+.jq-toast-single ul {
+    margin: 0px 0px 0px 15px;
+    background: none;
+    padding: 0px;
+}
+
+.jq-toast-single ul li {
+    list-style-type: disc !important;
+    line-height: 17px;
+    background: none;
+    margin: 0;
+    padding: 0;
+    letter-spacing: normal;
+}
+
+.close-jq-toast-single {
+    position: absolute;
+    top: 3px;
+    right: 7px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.jq-toast-loader {
+    display: block;
+    position: absolute;
+    top: -2px;
+    height: 5px;
+    width: 0%;
+    left: 0;
+    border-radius: 5px;
+    background: red;
+}
+
+.jq-toast-loaded {
+    width: 100%;
+}
+
+.jq-has-icon {
+    padding: 10px 10px 10px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+.jq-icon-info {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGwSURBVEhLtZa9SgNBEMc9sUxxRcoUKSzSWIhXpFMhhYWFhaBg4yPYiWCXZxBLERsLRS3EQkEfwCKdjWJAwSKCgoKCcudv4O5YLrt7EzgXhiU3/4+b2ckmwVjJSpKkQ6wAi4gwhT+z3wRBcEz0yjSseUTrcRyfsHsXmD0AmbHOC9Ii8VImnuXBPglHpQ5wwSVM7sNnTG7Za4JwDdCjxyAiH3nyA2mtaTJufiDZ5dCaqlItILh1NHatfN5skvjx9Z38m69CgzuXmZgVrPIGE763Jx9qKsRozWYw6xOHdER+nn2KkO+Bb+UV5CBN6WC6QtBgbRVozrahAbmm6HtUsgtPC19tFdxXZYBOfkbmFJ1VaHA1VAHjd0pp70oTZzvR+EVrx2Ygfdsq6eu55BHYR8hlcki+n+kERUFG8BrA0BwjeAv2M8WLQBtcy+SD6fNsmnB3AlBLrgTtVW1c2QN4bVWLATaIS60J2Du5y1TiJgjSBvFVZgTmwCU+dAZFoPxGEEs8nyHC9Bwe2GvEJv2WXZb0vjdyFT4Cxk3e/kIqlOGoVLwwPevpYHT+00T+hWwXDf4AJAOUqWcDhbwAAAAASUVORK5CYII=');
+    background-color: #31708f;
+    color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.jq-icon-warning {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVEhL5ZSvTsNQFMbXZGICMYGYmJhAQIJAICYQPAACiSDB8AiICQQJT4CqQEwgJvYASAQCiZiYmJhAIBATCARJy+9rTsldd8sKu1M0+dLb057v6/lbq/2rK0mS/TRNj9cWNAKPYIJII7gIxCcQ51cvqID+GIEX8ASG4B1bK5gIZFeQfoJdEXOfgX4QAQg7kH2A65yQ87lyxb27sggkAzAuFhbbg1K2kgCkB1bVwyIR9m2L7PRPIhDUIXgGtyKw575yz3lTNs6X4JXnjV+LKM/m3MydnTbtOKIjtz6VhCBq4vSm3ncdrD2lk0VgUXSVKjVDJXJzijW1RQdsU7F77He8u68koNZTz8Oz5yGa6J3H3lZ0xYgXBK2QymlWWA+RWnYhskLBv2vmE+hBMCtbA7KX5drWyRT/2JsqZ2IvfB9Y4bWDNMFbJRFmC9E74SoS0CqulwjkC0+5bpcV1CZ8NMej4pjy0U+doDQsGyo1hzVJttIjhQ7GnBtRFN1UarUlH8F3xict+HY07rEzoUGPlWcjRFRr4/gChZgc3ZL2d8oAAAAASUVORK5CYII=');
+    background-color: #8a6d3b;
+    color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.jq-icon-error {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHOSURBVEhLrZa/SgNBEMZzh0WKCClSCKaIYOED+AAKeQQLG8HWztLCImBrYadgIdY+gIKNYkBFSwu7CAoqCgkkoGBI/E28PdbLZmeDLgzZzcx83/zZ2SSXC1j9fr+I1Hq93g2yxH4iwM1vkoBWAdxCmpzTxfkN2RcyZNaHFIkSo10+8kgxkXIURV5HGxTmFuc75B2RfQkpxHG8aAgaAFa0tAHqYFfQ7Iwe2yhODk8+J4C7yAoRTWI3w/4klGRgR4lO7Rpn9+gvMyWp+uxFh8+H+ARlgN1nJuJuQAYvNkEnwGFck18Er4q3egEc/oO+mhLdKgRyhdNFiacC0rlOCbhNVz4H9FnAYgDBvU3QIioZlJFLJtsoHYRDfiZoUyIxqCtRpVlANq0EU4dApjrtgezPFad5S19Wgjkc0hNVnuF4HjVA6C7QrSIbylB+oZe3aHgBsqlNqKYH48jXyJKMuAbiyVJ8KzaB3eRc0pg9VwQ4niFryI68qiOi3AbjwdsfnAtk0bCjTLJKr6mrD9g8iq/S/B81hguOMlQTnVyG40wAcjnmgsCNESDrjme7wfftP4P7SP4N3CJZdvzoNyGq2c/HWOXJGsvVg+RA/k2MC/wN6I2YA2Pt8GkAAAAASUVORK5CYII=');
+    background-color: #a94442;
+    color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.jq-icon-success {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVEhLY2AYBfQMgf///3P8+/evAIgvA/FsIF+BavYDDWMBGroaSMMBiE8VC7AZDrIFaMFnii3AZTjUgsUUWUDA8OdAH6iQbQEhw4HyGsPEcKBXBIC4ARhex4G4BsjmweU1soIFaGg/WtoFZRIZdEvIMhxkCCjXIVsATV6gFGACs4Rsw0EGgIIH3QJYJgHSARQZDrWAB+jawzgs+Q2UO49D7jnRSRGoEFRILcdmEMWGI0cm0JJ2QpYA1RDvcmzJEWhABhD/pqrL0S0CWuABKgnRki9lLseS7g2AlqwHWQSKH4oKLrILpRGhEQCw2LiRUIa4lwAAAABJRU5ErkJggg==');
+    color: #dff0d8;
+    background-color: #3c763d;
+    border-color: #d6e9c6;
+}
+
+</style>
+<script>
+    
+    // collarChange = function (sel) {
+    //             var eltsel = document.getElementById(sel);
+    //             // var imgboxid = document.getElementById(imgbox);
+    //             var value = eltsel.value;
+    //             console.log(value);
+                
+                
+
+            // if (event.target.value == "Moghlai")
+            // {
+            //     document.getElementById("pdtimg").src = "";
+            //     document.getElementById("pdtimg").src = "pi/moghlai.jpg";
+            // }else if(event.target.value == "Mouchak"){
+            //     document.getElementById("pdtimg").src = "";
+            //     document.getElementById("pdtimg").src = "pi/mouchak.jpg";
+                
+            // }else if(event.target.value == "Tofa"){
+            //     document.getElementById("pdtimg").src = "";
+            //     document.getElementById("pdtimg").src = "pi/tofa.jpg";
+                
+            // }else if(event.target.value == "Kasundi"){
+            //     document.getElementById("pdtimg").src = "";
+            //     document.getElementById("pdtimg").src = "pi/kasundi.jpg";
+                
+            // }else{}
+        //}
+</script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
